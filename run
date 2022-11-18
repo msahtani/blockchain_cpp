@@ -1,0 +1,4 @@
+clear
+g++ `find -name "*.cpp"` -o main
+./main > out.txt
+rm main
